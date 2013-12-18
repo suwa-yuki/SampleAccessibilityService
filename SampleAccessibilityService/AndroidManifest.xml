@@ -17,6 +17,7 @@
         android:theme="@style/AppTheme" >
         <service
             android:name="jp.classmethod.android.sample.accessibilityservice.SampleAccessibilityService"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:label="SampleAccessibilityService" >
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
